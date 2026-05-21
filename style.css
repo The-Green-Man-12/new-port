@@ -2,6 +2,7 @@ body {
     margin: 0;
     min-height: 100vh;
     background: none;
+    
 }
 .video-container {
   position: fixed;
@@ -11,9 +12,15 @@ body {
 }
 @font-face {
   font-family: "superFont";
-  src: url("../fonts/my-font.woff2") format("woff2");
+  src: url("Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
+}
+@font-face {
+    font-family: "protest";
+    src: url("Protest_Guerrilla/ProtestGuerrilla-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
 }
 #bg-video {
   position: absolute;
@@ -31,6 +38,10 @@ body {
     text-align: center;
     font-size: 60px;
     color: white;
+    font-family:'protest', serif;
+}
+.navbar .nav-link {
+    font-family: 'protest', serif;
 }
 .paragraphs1 {
     text-align: center;
