@@ -2,7 +2,6 @@ body {
     margin: 0;
     min-height: 100vh;
     background: none;
-    
 }
 .video-container {
   position: fixed;
@@ -19,6 +18,12 @@ body {
 @font-face {
     font-family: "protest";
     src: url("Protest_Guerrilla/ProtestGuerrilla-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "york";
+    src: url("newyork/NewYork PERSONAL USE.otf") format("truetype");
     font-weight: 400;
     font-style: normal;
 }
@@ -47,11 +52,13 @@ body {
     text-align: center;
     font-size: 50px;
     color: white;
+    font-family: "superFont", serif;
 }
 .paragraphs2 {
     text-align: center;
     font-size: 40px;
     color: white;
+    font-family: 'york', serif;
 }
 .mini {
     font-size: 20px;
