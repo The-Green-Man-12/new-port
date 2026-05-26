@@ -9,6 +9,10 @@ body {
   overflow: hidden;
   z-index: -1;
 }
+.red_boxy {
+    background-color: #DC143C;
+    background-image: var(--bs-gradient); 
+  }
 @font-face {
   font-family: "superFont";
   src: url("Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("truetype");
