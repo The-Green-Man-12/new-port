@@ -3,6 +3,12 @@ body {
     min-height: 100vh;
     background: none;
 }
+.bg-grey {
+    /* background-color: #808080; */
+    --bs-grey-rgb: 128, 128, 128;
+    background-color: rgba(var(--bs-grey-rgb), var(--bs-bg-opacity, 1)) !important;
+    color: grey;
+}
 .video-container {
   position: fixed;
   inset: 0;
