@@ -15,6 +15,12 @@ body {
   overflow: hidden;
   z-index: -1;
 }
+.card-title {
+    font-family: "superFont", "serif";
+}
+/*.card-body {
+    font-family: "york", "serif";
+} */
 .red_boxy {
     background-color: #DC143C;
     background-image: var(--bs-gradient); 
@@ -71,6 +77,8 @@ body {
     font-family: 'york', serif;
 }
 .mini {
-    font-size: 20px;
     text-align: center;
+    font-size: 20px;
+    color: white;
+    font-family: "superFont", serif;
 }
