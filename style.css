@@ -7,7 +7,12 @@ body {
     /* background-color: #808080; */
     --bs-grey-rgb: 128, 128, 128;
     background-color: rgba(var(--bs-grey-rgb), var(--bs-bg-opacity, 1)) !important;
-    color: grey;
+    /*color: grey; */
+}
+.bg-green {
+    /*background-color: rgba(var(--bs-green-rgb), var(--bs-bg-opacity, 0)) !important; */
+    background-color: #8DDCDC !important; /* !important ensures it overrides Bootstrap */
+    border: none;
 }
 .video-container {
   position: fixed;
