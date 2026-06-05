@@ -121,6 +121,28 @@ body {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
 
+/* Full-width banner sections that span the viewport but center their inner content */
+.full-width-banner {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  background-color: rgba(128, 128, 128, 0.55);
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.full-width-banner .text-card {
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0.75rem;
+  padding: 0.75rem 1.25rem;
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .link-card {
   display: flex;
   flex-direction: column;
@@ -203,26 +225,27 @@ body {
 }
 
 .projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  display: block;
   gap: 1.5rem;
   margin-top: 2rem;
 }
 
 .project-card {
-  background-color: rgba(128, 128, 128, 0.75);
+  background-color: rgba(128, 128, 128, 0.85);
   border-radius: 1.25rem;
   overflow: hidden;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
+  display: block;
+  width: 100%;
+  margin-bottom: 1.5rem;
 }
 
 .project-image {
   width: 100%;
-  height: 200px;
-  object-fit: cover;
+  height: auto;
+  max-height: 480px;
+  object-fit: contain;
+  display: block;
 }
 
 .project-card-body {
@@ -235,6 +258,7 @@ body {
   font-family: "superFont", serif;
   font-size: 1.5rem;
   color: white;
+  text-align: center;
 }
 
 .project-card-body ul {
