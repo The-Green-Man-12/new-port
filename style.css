@@ -155,13 +155,13 @@ body {
   margin-bottom: 1rem;
 }
 
-.link-card .project-card-body {
+..link-card .project-card-body {
   padding: 0;
 }
 
 .link-button {
-  display: inline-block;
-  margin-top: 1rem;
+  display: block;
+  margin: 1rem auto 0;
   padding: 0.85rem 1.25rem;
   background-color: #8ddcdc;
   color: #051b1e;
