@@ -11,7 +11,7 @@ body {
 }
 .bg-green {
     /*background-color: rgba(var(--bs-green-rgb), var(--bs-bg-opacity, 0)) !important; */
-    background-color: #8DDCDC !important; /* !important ensures it overrides Bootstrap */
+    background-color: #8DDCDC !important;
     border: none;
 }
 .video-container {
@@ -121,7 +121,6 @@ body {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
 
-/* Full-width banner sections that span the viewport but center their inner content */
 .full-width-banner {
   width: 100vw;
   margin-left: calc(50% - 50vw);
@@ -155,7 +154,7 @@ body {
   margin-bottom: 1rem;
 }
 
-..link-card .project-card-body {
+.link-card .project-card-body {
   padding: 0;
 }
 
